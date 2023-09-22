@@ -1,0 +1,4 @@
+I think they both will take the same amount of time. When we store the elements in a multidimensional array, the OS still
+stores it in a sequential (1D) storage. So my guess would be it still does some computations to get the location of the
+desired item. When we store the items in a 1D array with some mapping, we again do the same computations to get the
+desired location. So it doesn't matter. I would prefer the multi dimensional approach for cleaner looking code.
