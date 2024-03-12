@@ -1,8 +1,8 @@
 package edu.syr.hw2;
-
 import java.util.List;
 
 public class Runner {
+
     public static void main(String[] args) {
         Book b1 = new Book("Holden Karau", "Learning Spark", "O'Reilly", "9781449358624", 2015);
         Book b2 = new Book("Norman Matloff", "The Art of R Programming", "No Starch Press", "9781593273842", 2011);
